@@ -1,0 +1,86 @@
+package main;
+import  java.util.Scanner;
+
+public class Converter {
+
+	 public static void main(String[] args) {
+		 int menuSelection;
+		 Scanner myScanner = new Scanner(System.in);
+		 //String line = myscanner.nextLine();
+		 System.out.println("Please choose a number and hit Enter.");
+		 System.out.println("1. Cups to Teaspoons");
+		 System.out.println("2. Miles to Kilometers");
+		 System.out.println("3. US Gallons to Imperial Gallons");
+		 System.out.println("4. Quit");
+	     
+
+	        menuSelection = myScanner.nextInt();
+	        System.out.println("You have typed: " + menuSelection);
+
+	       // myScanner.close();
+	        while(menuSelection != 0) {
+				 
+				// System.out.println("1. Cups to Teaspoons");
+				// System.out.println("2. Miles to Kilometers");
+				// System.out.println("3. US Gallons to Imperial Gallons");
+				// System.out.println("4. Quit");
+				 
+				  switch(menuSelection) {
+				  
+				  case 1:
+					  System.out.println("1. Cups to Teaspoons is"); 
+					  break;
+				  case 2:
+						 System.out.println("2. Miles to Kilometers");
+					  break;
+				  case 3:
+					  System.out.println("3. US Gallons to Imperial Gallons");
+					  break;
+				  case 4:
+					  break;
+					  default :
+						  
+				  
+				  }
+				 
+				 
+			 }   
+	        
+		 
+	/*	 
+		 System.out.println("Please select a option below");
+		 int menuSelection = 0;
+		 int count = 1;
+		 
+		 while(count == 1) {
+			 
+			 System.out.println("1. Cups to Teaspoons");
+			 System.out.println("2. Miles to Kilometers");
+			 System.out.println("3. US Gallons to Imperial Gallons");
+			 System.out.println("4. Quit");
+			 
+			  switch(menuSelection) {
+			  
+			  case 1:
+				  System.out.println("1. Cups to Teaspoons is"); 
+				  break;
+			  case 2:
+					 System.out.println("2. Miles to Kilometers");
+				  break;
+			  case 3:
+				  System.out.println("3. US Gallons to Imperial Gallons");
+				  break;
+			  case 4:
+				  break;
+				  default :
+					  
+			  
+			  }
+			 
+			 
+			 
+		 }
+		 */
+		 
+	 }
+}

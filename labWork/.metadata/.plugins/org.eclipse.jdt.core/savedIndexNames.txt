@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+/Users/mt_high/revatureTraining/labWork/.metadata/.plugins/org.eclipse.jdt.core
+1235605933.index
+707711042.index
+467623344.index
+3630603571.index
+3141775227.index

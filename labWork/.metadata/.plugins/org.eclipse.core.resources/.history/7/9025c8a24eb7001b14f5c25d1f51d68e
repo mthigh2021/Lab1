@@ -1,0 +1,49 @@
+package classTraining.stackaAndHeap;
+/*Strings are objects in java 
+ * Strings are not mutable
+ * there are two ways to create a string
+ * string litereal   String s1 = "hello";
+ * 
+
+ * 
+ */
+
+
+public class StringPlayground {
+	
+	public static void main(String[] args) {
+
+	String S1 = "Hello";
+	String S2 = new String("Hello");
+	
+	System.out.println(S1.charAt('e'));
+	System.out.println(S1.indexOf('1'));
+	System.out.println(S1.substring(2,3));
+	System.out.println(S1.equals(S2));
+
+	System.out.println(S2.hashCode());
+
+	
+	/*
+	 * Sting builder - used to work with Strings - basically to make them mutable
+	 * 
+	 */
+StringBuilder sb = new StringBuilder("my name is dan.");
+System.out.println(sb);
+sb.append("Nice to meet you");
+System.out.println(sb);
+
+String greeting = "Nice to meet you";
+System.out.println(sb);
+
+// String greeting = "my name is dan";
+// String g2 = greeting + "nice to meet you";
+
+String sub = sb.substring(10);
+System.out.println(sub);
+int index = sb.indexOf("N");
+System.out.println(sb);
+
+	
+	}
+}

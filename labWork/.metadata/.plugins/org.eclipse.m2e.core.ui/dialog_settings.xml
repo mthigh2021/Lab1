@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="/Users/mt_high/revatureTraining/labWork"/>
+			<item value="/Users/mt_high/revatureTraining"/>
 			<item value="/Users/mt_high/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Day6"/>
 			<item value="/Users/mt_high/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE"/>
 		</list>
@@ -51,6 +53,8 @@
 			<item value="dev.developer.classTraining"/>
 		</list>
 		<list key="artifactId">
+			<item value="javaDay6"/>
+			<item value="day5"/>
 			<item value="classTraining"/>
 			<item value="day6"/>
 		</list>

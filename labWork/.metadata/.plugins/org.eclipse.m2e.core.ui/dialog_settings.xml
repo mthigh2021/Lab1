@@ -2,10 +2,13 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
-			<item value="/Users/mt_high/revatureTraining/labWork"/>
 			<item value="/Users/mt_high/revatureTraining"/>
-			<item value="/Users/mt_high/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Day6"/>
+			<item value="/Users/mt_high/revatureTraining/Bootcamp"/>
+			<item value="/Users/mt_high/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/RevatureTrainingDK"/>
 			<item value="/Users/mt_high/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE"/>
+			<item value="/Users/mt_high/revatureTraining/labWork/javaDay6"/>
+			<item value="/Users/mt_high/revatureTraining/labWork"/>
+			<item value="/Users/mt_high/Documents/workspace-spring-tool-suite-4-4.10.0.RELEASE/Day6"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -47,12 +50,20 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.developer"/>
 			<item value="dev.developer"/>
 		</list>
 		<list key="name">
+			<item value="dev.developer.Dipak"/>
 			<item value="dev.developer.classTraining"/>
 		</list>
 		<list key="artifactId">
+			<item value="classWork"/>
+			<item value="mavenProject"/>
+			<item value="bootcamp"/>
+			<item value="Dipak"/>
+			<item value="dipak"/>
+			<item value="Polymorphism"/>
 			<item value="javaDay6"/>
 			<item value="day5"/>
 			<item value="classTraining"/>

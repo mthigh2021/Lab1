@@ -1,0 +1,32 @@
+## loging 
+>> loging records events that occur during software execution
+- As users execute programs on the client side, tge sysstem accumulates log entries for support teams 
+- In general, it allows for deceloper to acess information avbout applications to which they donot have direct access
+-- without logs, we would have no idea of knowing what went wrong when application crashes or have a way to track and monitor application performance
+
+> persistence
+## Log4j 
+- A LOGGING FRAMEWORK , like log4j, is critical because it allows us to use various logging levels and also allows us to  configure a threshold to determine which message will be recorded in application log files
+ -- Reliable, Fast and flexible 
+ --Immensely helpful for debugging 
+
+ ** Log Level**
+ >>> they only have representatiinal meaning. think of them like HTTP status Codes - they are only tellinng us or giving us informational.
+ -- All  --> all is all level
+ --DEBUG ==> Designates fine grand informational events that are most useful to debug an application 
+ __INFO  ==> info are just informational mesages that highlight progress of the application (at the corse -				grained level)
+ --WARN ==> Designates potentially harmful situations 
+ --ERROR ==> designate error events that might still allow the application to continue running 
+ --FATAL ==>  is  a sever error events that presumabbly lead the application to abort 
+ --OFF ==>  highest possible level, intended to turn off logging 
+
+
+
+ ## process of adding log4j  to our project 
+ 1. add log4j  dependency to our pom.xml
+ 2. Configure/ create our log4j2.xml file 
+ 3. create a logger class  - this class is responsible for the actual act of logging - it will interact with 	your code
+ 4. add apublic static final logger object 
+ 		use `LogManager.getLogger()`
+ 5. Use that logger wherever we want. 
+ 
